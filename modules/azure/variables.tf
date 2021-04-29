@@ -38,7 +38,7 @@ variable "idp_identifiers" {
 # }
 
 variable "saml_metadata_sso_redirect_binding_uri" {
-  type = string
+  type        = string
   description = "value"
-  default = "https://login.microsoftonline.com/d7661b63-f3e7-470c-9d60-fd77e99f4bfc/saml2"
+  default     = "https://login.microsoftonline.com/d7661b63-f3e7-470c-9d60-fd77e99f4bfc/saml2"
 }
