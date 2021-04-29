@@ -1,6 +1,6 @@
 # Terraform Module - Cognito Identity Providers
 
-Current version: v0.0.0
+Current version: v0.1.0
 
 Includes:
 
