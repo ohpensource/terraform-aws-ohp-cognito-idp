@@ -25,7 +25,6 @@ definitions:
           - set -o pipefail
           - |
             # Update version
-            terraform fmt -recursive
             chmod +x ./scripts/bump.sh
             source ./scripts/bump.sh
 pipelines:
