@@ -24,16 +24,7 @@ provider "aws" {
 variable "env" { default = "dev" }
 variable "tfm_x_acc_role_name" { default = "xops-tfm-adm-x-acc-role" }
 
-# variable "account_id" { default = "333946375643" } #int-nwk
-variable "account_id" { default = "061211638568" } #dev-infra 
-# variable "account_id" { default = "669720269214" } # awsbeheer
+variable "account_id" { default = "012345678900" } #dev-infra 
 
-variable "account_id_core_shared" { default = "086282490297" }
+variable "account_id_core_shared" { default = "012345678901" }
 
-# provider "aws" {
-#   alias                   = "core_shared"
-#   region                  = "eu-west-1"
-#   allowed_account_ids     = [var.account_id_core_shared]
-#   shared_credentials_file = "~/.aws/credentials"
-#   profile                 = "tfm-admin-shd"
-# }

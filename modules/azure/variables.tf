@@ -37,8 +37,8 @@ variable "idp_identifiers" {
 #   default     = {}
 # }
 
-variable "saml_metadata_sso_redirect_binding_uri" {
+variable "idp_signout_url" {
   type        = string
-  description = "value"
-  default     = "https://login.microsoftonline.com/d7661b63-f3e7-470c-9d60-fd77e99f4bfc/saml2"
+  description = "Optional"
+  default     = null
 }
