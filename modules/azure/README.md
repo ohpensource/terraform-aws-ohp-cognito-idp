@@ -37,6 +37,7 @@ No modules.
 | <a name="input_attribute_mapping"></a> [attribute\_mapping](#input\_attribute\_mapping) | A mapping of identity provider attributes to standard and custom user pool attributes | `map(any)` | <pre>{<br>  "Family Name": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname",<br>  "Given Name": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname",<br>  "Name": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name",<br>  "custom:groups": "http://schemas.microsoft.com/ws/2008/06/identity/claims/groups",<br>  "email": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress"<br>}</pre> | no |
 | <a name="input_cognito_user_pool_id"></a> [cognito\_user\_pool\_id](#input\_cognito\_user\_pool\_id) | (Required) AWS Cognito User Pool Id | `string` | n/a | yes |
 | <a name="input_idp_identifiers"></a> [idp\_identifiers](#input\_idp\_identifiers) | The list of identity providers. | `list(string)` | `[]` | no |
+| <a name="input_idp_name"></a> [idp\_name](#input\_idp\_name) | The identity provider name | `string` | `"Azure"` | no |
 | <a name="input_idp_signout_url"></a> [idp\_signout\_url](#input\_idp\_signout\_url) | Optional | `string` | `null` | no |
 | <a name="input_xml_metadata_file"></a> [xml\_metadata\_file](#input\_xml\_metadata\_file) | SAML xml metadata file | `any` | `null` | no |
 | <a name="input_xml_metadata_url"></a> [xml\_metadata\_url](#input\_xml\_metadata\_url) | SAML xml metadata url | `any` | `null` | no |
