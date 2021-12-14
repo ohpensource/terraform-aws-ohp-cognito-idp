@@ -1,3 +1,9 @@
+# :confetti_ball: 1.0.2 (2021-12-14T11:57:17.704Z)
+- - -
+## :bug: Fixes
+* LANZ-1441 add signout url
+- - -
+- - -
 # :confetti_ball: 1.0.1 (2021-12-14T11:20:38.524Z)
 - - -
 ## :newspaper: Others
