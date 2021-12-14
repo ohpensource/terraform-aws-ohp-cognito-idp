@@ -1,5 +1,5 @@
 module "cognito" {
-  source = "git@bitbucket.org:ohpen-dev/terraform-aws-ohp-cognito-user-pool.git?ref=v0.1.0"
+  source = "github.com/ohpensource/terraform-aws-ohp-cognito-user-pool?ref=v1.0.1"
 
   user_pool_name           = local.name
   tags                     = local.tags
@@ -11,7 +11,7 @@ module "cognito" {
 }
 
 module "azure_idp" {
-  source = "git@bitbucket.org:ohpen-dev/terraform-aws-ohp-cognito-idp.git//modules//azure?ref=v0.1.0"
+  source = "github.com/ohpensource/terraform-aws-ohp-cognito-idp//modules//azure?ref=v1.0.1"
 
   cognito_user_pool_id = module.cognito.id
   xml_metadata_file    = file("./oma_poc.xml")
@@ -19,7 +19,7 @@ module "azure_idp" {
 }
 
 module "acm" {
-  source = "git@bitbucket.org:ohpen-dev/terraform-aws-ohp-acm.git?ref=v0.1.0"
+  source = "github.com/ohpensource/terraform-aws-ohp-acm?ref=v1.0.0"
   providers = {
     aws = aws.us_east_1
   }
