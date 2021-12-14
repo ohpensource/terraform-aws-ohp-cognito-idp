@@ -17,6 +17,7 @@ Creates Cognito Identity Providers. At this time there is only one IdP supported
 ## Modules
 
 * Azure (SAML)
+* SAML - this is basically the same as the Azure module
 
 ## Documentation
 
