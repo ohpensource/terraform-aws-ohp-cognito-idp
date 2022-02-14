@@ -1,9 +1,9 @@
 output "id" {
   value       = aws_cognito_identity_provider.main.id
-  description = "Cognito User Pool Id"
+  description = "Cognito IdP Id"
 }
 
 output "name" {
   value       = aws_cognito_identity_provider.main.provider_name
-  description = "Cognito User Pool Name"
+  description = "Cognito IdP Name"
 }
