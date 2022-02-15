@@ -1,3 +1,9 @@
+# :confetti_ball: 1.0.4 (2021-12-14T13:53:42.689Z)
+- - -
+## :newspaper: Others
+* Merge pull request #6 from ohpensource/feature/lanz-1444
+- - -
+- - -
 # :confetti_ball: 1.0.3 (2021-12-14T12:55:22.865Z)
 - - -
 ## :newspaper: Others
