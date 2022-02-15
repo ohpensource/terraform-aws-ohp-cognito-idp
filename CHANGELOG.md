@@ -1,3 +1,10 @@
+# :confetti_ball: 1.0.5 (2022-02-15T08:10:02.532Z)
+- - -
+## :bug: Fixes
+* LANZ-1444 Bump to version v1.0.4
+* LANZ-1502 attribute mappings
+- - -
+- - -
 # :confetti_ball: 1.0.4 (2021-12-14T13:53:42.689Z)
 - - -
 ## :newspaper: Others
