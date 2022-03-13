@@ -35,4 +35,19 @@
 * Merge pull request #1 from ohpensource/feature/LANZ-1390
 - - -
 - - -
-# Changelog
+
+# Changelog from bitbucket
+Note: version releases in the 0.x.y range may introduce breaking changes.
+
+## 0.2.0
+
+- minor: merged in feature/lanz-956 (pull request #2)
+
+## 0.1.0
+
+- minor: merge remote-tracking branch 'origin/master'
+
+## 0.0.0
+
+- minor: start
+
